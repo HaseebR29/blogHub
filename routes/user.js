@@ -1,3 +1,5 @@
+require('dotenv').config
+
 const { Router } = require('express');
 const User = require('../models/user')
 
