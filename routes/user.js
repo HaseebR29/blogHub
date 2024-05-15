@@ -16,7 +16,7 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_API_SECRET
 });
 
-var image = "public/images/default.avif"
+var image = "./public/images/default"
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
